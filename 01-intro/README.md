@@ -12,7 +12,7 @@
 
 Скриншот версии Terraform:
 
-![Terraform Version](screenshots/01-terraform-version.png)
+![Terraform Version](screenshots/task1-01-terraform-version.png)
 
 ---
 
@@ -56,7 +56,7 @@ personal.auto.tfvars
 
 Скриншот .gitignore:
 
-![GitIgnore](screenshots/02-gitignore-personal-auto-tfvars.png)
+![GitIgnore](screenshots/task1-02-gitignore-secret-file.png)
 
 ---
 
@@ -82,7 +82,7 @@ grep '"result"' terraform.tfstate
 
 Скриншот поиска (значение скрыто):
 
-![State Secret](screenshots/03-state-result-secret.png)
+![State Secret](screenshots/task1-03-state-result-secret.png)
 
 ---
 
@@ -147,7 +147,7 @@ Terraform чувствителен к регистру и требует точ�
 
 Скриншот ошибок валидации:
 
-![Validate Errors](screenshots/04-terraform-validate-errors.png)
+![Validate Errors](screenshots/task1-04-terraform-validate-errors.png)
 
 После исправления всех ошибок:
 
@@ -208,7 +208,7 @@ Nginx успешно запущен и отвечает на порту 9090.
 
 Скриншот запущенного контейнера:
 
-![Docker PS Example](screenshots/05-docker-ps-example.png)
+![Docker PS Example](screenshots/task1-05-docker-ps-example.png)
 
 ---
 
@@ -248,7 +248,7 @@ docker ps
 
 Скриншот с новым именем:
 
-![Docker PS Hello World](screenshots/06-docker-ps-hello-world.png)
+![Docker PS Hello World](screenshots/task1-06-docker-ps-after-destroy.png)
 
 ---
 
@@ -311,7 +311,7 @@ docker ps
 
 Скриншот после destroy:
 
-![Docker PS After Destroy](screenshots/07-docker-ps-after-destroy.png)
+![Docker PS After Destroy](screenshots/task1-06-docker-ps-after-destroy.png)
 
 **Содержимое terraform.tfstate после destroy:**
 
@@ -331,7 +331,7 @@ State файл содержит только базовую структуру, 
 
 Скриншот пустого state:
 
-![Empty State](screenshots/09-empty-state.png)
+![Empty State](screenshots/task1-08-empty-state.png)
 
 ---
 
@@ -348,7 +348,7 @@ docker images | grep nginx
 
 Образ остался на диске:
 
-![Docker Images Nginx](screenshots/08-docker-images-nginx-kept.png)
+![Docker Images Nginx](screenshots/task1-07-docker-images-nginx-kept.png)
 
 ---
 
