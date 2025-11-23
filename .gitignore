@@ -1,0 +1,27 @@
+# Terraform
+**/.terraform/*
+**/.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+crash.log
+crash.*.log
+
+# Sensitive files
+*.tfvars
+!*.tfvars.example
+personal.auto.tfvars
+
+# Proxmox secrets (если есть)
+**/terraform.tfvars
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log

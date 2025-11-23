@@ -1,0 +1,18 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Sensitive
+personal.auto.tfvars
+*.tfvars
+!*.tfvars.example
+
+# Logs
+*.log
+crash.log
+
+# macOS
+.DS_Store
