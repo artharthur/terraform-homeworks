@@ -20,12 +20,6 @@ variable "default_storage" {
   description = "Default storage"
 }
 
-variable "network_bridge" {
-  type        = string
-  default     = "vmbr0"
-  description = "Network bridge"
-}
-
 variable "container_gateway" {
   type        = string
   default     = "192.168.1.1"
